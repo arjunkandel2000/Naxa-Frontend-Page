@@ -2,7 +2,7 @@
   "name": "ecomm-pro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arjunkandel2000.github.io",
+  "homepage": "https://arjunkandel2000.github.io/Naxa-Frontend-Page",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
