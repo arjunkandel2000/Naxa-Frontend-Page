@@ -26,13 +26,13 @@ function Main() {
                     <div className="row">
                         <div className="col-sm-1 "></div>
                         <div className="col-sm-4 d-flex justify-content-center ">
-                            <img src={photos[2]} alt="" />
+                            <img className='img-fluid' src={photos[2]} alt="" />
                         </div>
                         <div className="col-sm-6 ">
                             <div className='gis'>
                                 <h2>{title[2]}</h2>
                                 <p>{description1[2]}</p>
-                                <p className='text-justify'>{description2[2]}</p>
+                                <p>{description2[2]}</p>
                             </div>
                         </div>
                         <div className="col-sm-1 "></div>
@@ -45,7 +45,7 @@ function Main() {
                     <div className="row">
                         <div className="col-sm-1 "></div>
                         <div className="col-sm-4  d-flex justify-content-center ">
-                            <img src={photos[4]} alt="" />
+                            <img className='img-fluid' src={photos[4]} alt="" />
                         </div>
                         <div className="col-sm-6 ">
                             <div className='survey'>
@@ -64,7 +64,7 @@ function Main() {
                     <div className="row">
                         <div className="col-sm-1 "></div>
                         <div className="col-sm-4  d-flex justify-content-center">
-                            <img src={photos[3]} alt="" />
+                            <img className='img-fluid' src={photos[3]} alt="" />
                         </div>
                         <div className="col-sm-6 ">
                             <div className='data'>
@@ -83,7 +83,7 @@ function Main() {
                     <div className="row">
                         <div className="col-sm-1 "></div>
                         <div className="col-sm-4  d-flex justify-content-center ">
-                            <img src={photos[5]} alt="" />
+                            <img className='img-fluid' src={photos[5]} alt="" />
                         </div>
                         <div className="col-sm-6 ">
                             <div className='software'>
@@ -102,7 +102,7 @@ function Main() {
                     <div className="row">
                         <div className="col-sm-1 "></div>
                         <div className="col-sm-4  d-flex justify-content-center ">
-                            <img src={photos[0]} alt="" />
+                            <img className='img-fluid' src={photos[0]} alt="" />
                         </div>
                         <div className="col-sm-6 ">
                             <div className='frontier'>
@@ -122,7 +122,7 @@ function Main() {
                     <div className="row">
                         <div className="col-sm-1 "></div>
                         <div className="col-sm-4  d-flex justify-content-center ">
-                            <img src={photos[1]} alt="" />
+                            <img className='img-fluid' src={photos[1]} alt="" />
                         </div>
                         <div className="col-sm-6 ">
                             <div className='research'>

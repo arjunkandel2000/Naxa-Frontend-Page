@@ -1,4 +1,4 @@
-import { takeLatest, put } from 'redux-saga/effects'
+import { takeLatest, put, take } from 'redux-saga/effects'
 
 
 function* getProducts() {
