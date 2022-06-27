@@ -12,12 +12,10 @@ function Main() {
     const title = data.map((items) => items.title)
     const photos = data.map((items) => items.photo)
     const description1 = data.map((items) => items.description1)
+    console.log(description1)
     const description2 = data.map((items) => items.description2)
     const x = description1[2]
     console.log(typeof(x))
-    // let y= x.replace(/<p>/g,'wrongWord')
-    // console.warn('eeeeeeeeeeeeeeee',y)
-
 
     return (
         <div>
@@ -31,8 +29,10 @@ function Main() {
                         <div className="col-sm-6 ">
                             <div className='gis'>
                                 <h2>{title[2]}</h2>
-                                <p>{description1[2]}</p>
-                                <p>{description2[2]}</p>
+                                <div dangerouslySetInnerHTML={{__html:description1[2]}}></div>
+                                <div dangerouslySetInnerHTML={{__html:description2[2]}}></div>
+                                {/* <p>{description1[2]}</p>
+                                <p>{description2[2]}</p> */}
                             </div>
                         </div>
                         <div className="col-sm-1 "></div>
@@ -50,8 +50,10 @@ function Main() {
                         <div className="col-sm-6 ">
                             <div className='survey'>
                                 <h2>{title[4]}</h2>
-                                <p>{description1[4]}</p>
-                                <p>{description2[4]}</p>
+                                <div dangerouslySetInnerHTML={{__html:description1[4]}}></div>
+                                <div dangerouslySetInnerHTML={{__html:description2[4]}}></div>
+                                {/* <p>{description1[4]}</p>
+                                <p>{description2[4]}</p> */}
                             </div>
                         </div>
                         <div className="col-sm-1 "></div>
@@ -69,8 +71,10 @@ function Main() {
                         <div className="col-sm-6 ">
                             <div className='data'>
                                 <h2>{title[3]}</h2>
-                                <p>{description1[3]}</p>
-                                <p>{description2[3]}</p>
+                                <div dangerouslySetInnerHTML={{__html:description1[3]}}></div>
+                                <div dangerouslySetInnerHTML={{__html:description2[3]}}></div>
+                                {/* <p>{description1[3]}</p>
+                                <p>{description2[3]}</p> */}
                             </div>
                         </div>
                         <div className="col-sm-1 "></div>
@@ -88,8 +92,10 @@ function Main() {
                         <div className="col-sm-6 ">
                             <div className='software'>
                                 <h2>{title[5]}</h2>
-                                <p>{description1[5]}</p>
-                                <p>{description2[5]}</p>
+                                <div dangerouslySetInnerHTML={{__html:description1[5]}}></div>
+                                <div dangerouslySetInnerHTML={{__html:description2[5]}}></div>
+                                {/* <p>{description1[5]}</p>
+                                <p>{description2[5]}</p> */}
                             </div>
                         </div>
                         <div className="col-sm-1 "></div>
@@ -107,8 +113,10 @@ function Main() {
                         <div className="col-sm-6 ">
                             <div className='frontier'>
                                 <h2>{title[0]}</h2>
-                                <p>{description1[0]}</p>
-                                <p>{description2[0]}</p>
+                                <div dangerouslySetInnerHTML={{__html:description1[0]}}></div>
+                                <div dangerouslySetInnerHTML={{__html:description2[0]}}></div>
+                                {/* <p>{description1[0]}</p>
+                                <p>{description2[0]}</p> */}
                             </div>
                         </div>
                         <div className="col-sm-1 "></div>
@@ -127,8 +135,10 @@ function Main() {
                         <div className="col-sm-6 ">
                             <div className='research'>
                                 <h2>{title[1]}</h2>
-                                <p>{description1[1]}</p>
-                                <p>{description2[1]}</p>
+                                <div dangerouslySetInnerHTML={{__html:description1[1]}}></div>
+                                <div dangerouslySetInnerHTML={{__html:description2[1]}}></div>
+                                {/* <p>{description1[1]}</p>
+                                <p>{description2[1]}</p> */}
                             </div>
                         </div>
                         <div className="col-sm-1 "></div>
